@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vigenere  cipher local</title>
+	<link rel="stylesheet" type="text/css" href="vigenere.css">
+</head>
+<body>
+	<h1>Vigenere  Cipher</h1>
+	<div id="flex">
+
+		<label><b>Write Message Here:</b></label>
+		<textarea id="plain-text" type="text" name="message" autofocus="autofocus"></textarea>
+		<br>
+
+
+		<label><b>Input Keyword:</b></label>
+		<input id="keyword" type="text" name="keyword">
+		<button onclick="encrypt()">Encrpyt</button>
+
+		<br>
+
+		<label><b>Encrypted Message</b></label>
+		<textarea id="encrypted-message" type="text" name="encryptor" readonly="readonly"></textarea>
+		<button onclick="copyOne()">Copy</button>
+		<br>
+
+		<label><b>Decrypt Here</b></label>
+		<textarea id="encrypted-text" type="text" name="encrypted"></textarea>
+		<button onclick="decrypt()">Decrypt</button>
+		<br>
+
+		<label><b>Decrypted Message</b></label>
+		<textarea id="decrypted-plain-text" type="text" readonly="readonly" name="decrypted"></textarea> 
+		<button onclick="copyTwo()">Copy</button>
+
+	</div>
+<script type="text/javascript" src="./vigenere.js"></script>
+</body>
+</html>

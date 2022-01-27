@@ -1,0 +1,27 @@
+h1 {
+	display: block;
+	text-align: center;
+	font-size: 50px;
+	color: snow;
+}
+
+#flex {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	padding: 40px;
+	margin: auto;
+	margin-top: 100px;
+	width: 250px;
+	border: solid silver 4px;
+	border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(255,178,249,0.19), 0 6px 6px rgba(105,255,205,0.23);
+	background-image: linear-gradient(#F985D6,#7495dd,#A0AFB7,#fc0fc0);
+
+}
+
+body {
+	background-color: #7f00ff;
+}
+
+
